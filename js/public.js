@@ -1,0 +1,9 @@
+ document.onready = window.onresize = function () {
+     //关闭loading页
+     $('.loading_page').fadeOut("fast");
+     //视窗大小
+     var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+     var _html = document.getElementsByTagName('html')[0];
+     view_width > 640 ? _html.style.fontSize = 640 / 16 + 'px' : _html.style.fontSize = view_width / 16 + 'px';
+     
+ };

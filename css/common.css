@@ -1,0 +1,255 @@
+@charset "utf-8";
+.screen{ position: relative; overflow: hidden; width: 16rem; margin: 0 auto;}
+.banner{ position: relative; width: 16rem; height: 7.5rem; margin: 0 auto; background: url(../images/banner.jpg) left top no-repeat; background-size: 100%;}
+.tan{ position: absolute; right: 4.5rem; bottom: -3rem; width: .6rem; height: 3rem; z-index: 9; cursor: pointer;}
+.tan_line{ width: .6rem; height: 0.05rem; background: url(../images/tan1.png) center top repeat-Y; background-size: 100%; -webkit-animation: line 2s infinite linear;}
+.tan_icon{ width: .6rem; height: .6rem;}
+.tan_icon a{ display: block; width: .6rem; height: .6rem; background: url(../images/tan2.png) center top no-repeat; background-size: 100%;}
+
+@-webkit-keyframes line {
+     0% {
+     height: 0.05rem;
+  }
+   
+      15% {
+    height: 1.25rem; 
+  }
+  
+      20% {
+    height: 1.35rem; 
+  }
+   
+      23% {
+    height: 1.25rem; 
+  } 
+     26% {
+    height: 1.05rem; 
+  }
+   
+      29% {
+    height: 1.25rem; 
+  } 
+    
+      90% {
+    height: 1.25rem; 
+  }  
+   
+  100% {
+   height: 0.05rem; 
+  }
+}
+
+.order{ overflow: hidden; width: 16rem; height: 0rem; margin: 0 auto; background: #0a427d; z-index: 10;}
+.order_a{ float: left; display: block; width: 12rem; height: 1.1rem; margin-left: 1rem; font: .6rem/1.1rem "Microsoft YaHei"; color: #fff;}
+.order_close{ float: right; width: .6rem; height: .6rem; margin: .3rem 1rem 0 0; background: url(../images/close.png) left top no-repeat; background-size: 100%;}
+
+.order2{ -webkit-animation: height1 .2s  linear forwards;}
+.order3{ -webkit-animation: height2 .2s  linear forwards;}
+
+@-webkit-keyframes height1 {
+     0% {
+     height: 0;
+  }
+   
+  100% {
+   height: 1.1rem; 
+  }
+}
+
+@-webkit-keyframes height2 {
+     0% {
+     height: 1.1rem;
+  }
+   
+  100% {
+   height: 0; 
+  }
+}
+
+/******************现状********************/
+.situation{ width: 16rem; margin: 0 auto; padding-bottom: 1.5rem;}
+.title1{ width: 2.25rem; height: 2.15rem; margin: 0 auto; background: url(../images/title01.png) left top no-repeat; background-size: 100%;}
+.s_content{ width: 14rem; padding: 0 1rem;}
+.s_content_p1{ margin-top: .4rem; font: .55rem/.75rem "Microsoft YaHei"; color: #454545; text-align: center;}
+.s_content_p2{ width: 7rem; height: .95rem; margin: 0 auto; background: #ff4966; font: .6rem/.95rem "Microsoft YaHei"; color: #fff; text-align: center;}
+.s_content div:nth-child(3){ width: 2.05rem; height: 2.05rem; margin: .5rem auto;}
+.s_content div:nth-child(3) img{ width: 2.05rem; height: 2.05rem;}
+
+.s_content p{ clear: both;}
+.s_content span{ width: 12.5rem; display: block; float: left; font: .6rem/.75rem "Microsoft YaHei"; color: #454545; }
+.s_content .pink{ width: .7rem; height: .7rem; margin: 0rem .5rem .15rem 0; border-radius: 50%; background: #ff4966; text-align: center; font: .55rem/.7rem "Microsoft YaHei"; color: #fff; text-align: center;}
+.s_content strong{ font: .6rem/.75rem "Microsoft YaHei"; color: #ff4966;}
+
+
+/************选择**************/
+.choice{ width: 16rem; margin: 0 auto; padding-bottom: .375rem; background: #eeecec;}
+.title2{ width: 2.25rem; height: 1.65rem; margin: -1.15rem auto 0 auto; background: url(../images/title02.png) left top no-repeat; background-size: 100%;}
+.c_content{ width: 14rem; padding: 0 1rem;}
+
+.c_content_p2{ width: 10.85rem; height: .95rem; margin: 0 auto; margin-top: .5rem; background: #00bb9c; font: .6rem/.95rem "Microsoft YaHei"; color: #fff; text-align: center;}
+.c_content div:nth-child(2){ width: 1.7rem; height: 2.05rem; margin: .5rem auto;}
+.c_content div:nth-child(2) img{ width: 1.7rem; height: 2.05rem;}
+.c_content p{ clear: both; margin-bottom: .15rem;}
+.c_content span{ width: 12.5rem; display: block; float: left; font: .6rem/.75rem "Microsoft YaHei"; color: #454545; }
+.c_content .green{ width: .7rem; height: .7rem; margin: 0rem .5rem 0 0; border-radius: 50%; background: #00bb9c; text-align: center; font: .55rem/.7rem "Microsoft YaHei"; color: #fff; text-align: center;}
+.c_content strong{ font: .6rem/.75rem "Microsoft YaHei"; color: #00bb9c;}
+
+/*********************代运营*********************/
+.replace{ width: 16rem; margin: 0 auto; padding-bottom: 1.5rem;}
+.title3{ width: 5.85rem; height: 2.1rem; margin: 0 auto; background: url(../images/title03.png) left top no-repeat; background-size: 100%;}
+.replace ul{ width: 13rem; margin: 0 auto;}
+.replace li{ float: left; width: 5rem; height: 2rem; margin: 0 0 .25rem 1rem;}
+.replace li img{ width: 5rem; height: 2rem;}
+
+/**********************有这样一家代运营*******************************/
+
+.content_three{ width: 16rem; margin: 0 auto; padding-bottom: .5rem; background: #eeecec;}
+.title4{ width: 7.35rem; height: 1.85rem;  margin: -1.35rem auto 0 auto; background: url(../images/title04.png) left top no-repeat; background-size: 100%;}
+.content_three h2{ margin: .5rem 0 .15rem 0; font: .6rem/.9rem "Microsoft YaHei"; color: #028ad4; text-align: center;}
+.content_three p{ font: .6rem/.9rem "Microsoft YaHei"; color: #454545; text-align: center;}
+.water{ overflow: hidden; position: relative; width: 15.45rem; height: 13.45rem; margin: .35rem auto 0 auto; background: url(../images/water.png) left top no-repeat; background-size: 100%;}
+.water div{ overflow:hidden; position:absolute; width:2.5rem; height:2.5rem; border-radius: 50%; }
+.water div img{ width:2.5rem; height:2.5rem;}
+.water_01{ left:7.45rem; top:6.6rem;}
+.water_02{ left:4.5rem; top:5.3rem;}
+.water_03{ left:6.9rem; top:3.5rem;}
+.water_01_bg{ left:7.45rem; top:6.6rem; background:rgba(255,222,204,1); }
+.water_02_bg{ left:4.5rem; top:5.3rem; background:rgba(255,219,224,1);}
+.water_03_bg{ left:6.9rem; top:3.5rem; background:rgba(255,237,204,1);}
+
+@-webkit-keyframes water {
+     0% {
+     -webkit-transform:scale(1,1)
+  }
+   
+     17% {
+     -webkit-transform:scale(1.3,1.3)
+  }
+   
+   33%{
+	 -webkit-transform:scale(1,1)
+   }
+  100% {
+   -webkit-transform:scale(1,1)
+  }
+}
+
+/****************大麦代运营*****************/
+.content_four{  width: 16rem; margin: 0 auto; padding-bottom: 2rem;}
+.title5{ width: 6.5rem; height: 1.6rem;  margin: 0 auto .75rem auto; background: url(../images/title05.png) left top no-repeat; background-size: 100%;}
+
+.water_DM{ position: relative; 16rem; margin: 0 auto;}
+.water_DM_bg{width:16rem; }
+.water_dm{ position: absolute; width: 16rem; left: 0; top: 0;}
+
+.water_dm div{ float: left; width: 3.5rem; height: 3.5rem; border-radius: 50%; text-decoration: none; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.water_dm div img{ width: 3.5rem; height: 3.5rem;}
+.water_dm .water_DM1{ margin-left: 1.05rem; background: url(../images/hover_w1.png) left top no-repeat; background-size: 100%;}
+.water_dm .water_DM11{ margin-left: 1.05rem; background: url(../images/hover_w11.png) left top no-repeat; background-size: 100%;}
+.water_dm .water_DM2{ margin-left: 1.75rem; background: url(../images/hover_w2.png) left top no-repeat; background-size: 100%;}
+.water_dm .water_DM22{ background: url(../images/hover_w22.png) left top no-repeat; background-size: 100%;}
+.water_dm .water_DM3{ margin-left: 1.75rem; background: url(../images/hover_w3.png) left top no-repeat; background-size: 100%;}
+.water_dm .water_DM33{ background: url(../images/hover_w33.png) left top no-repeat; background-size: 100%;}
+.water_DM1_bg{ float: left; margin-left: 1.05rem; width: 3.5rem; height: 3.5rem; background: url(../images/hover_w4.png) left top no-repeat; background-size: 100% 100%;}
+.water_DM2_bg{ float: left; margin-left: 1.75rem; width: 3.5rem; height: 3.5rem; background: url(../images/hover_w5.png) left top no-repeat; background-size: 100% 100%;}
+.water_DM3_bg{float: left; margin-left: 1.75rem;  width: 3.5rem; height: 3.5rem; background: url(../images/hover_w6.png) left top no-repeat; background-size: 100% 100%;}
+
+
+
+.water_DM_all{ -webkit-animation: water2 1s  infinite linear;}
+
+
+@-webkit-keyframes water2 {
+     0% {
+     -webkit-transform:scale(1,1)
+  }
+   
+     50% {
+     -webkit-transform:scale(1.3,1.3)
+  }
+   
+  100% {
+   -webkit-transform:scale(1,1)
+  }
+}
+
+.water_JS{ clear: both; width: 14rem; height: 3.6rem; margin: .65rem auto 0 auto;}
+.water_JS1 { margin-top: 0;}
+.water_JS1 p{ font: .6rem/.9rem "Microsoft YaHei"; color: #454545;}
+.water_JS1 span{ color: #6a71e5;}
+
+.water_JS2{ display: none;}
+.water_JS2 dl{ width: 14rem;}
+.water_JS2 dt{float: left; width: .3rem; height: .3rem; margin: .35rem .35rem 0 0; border-radius: 50%; background: #0091ff;}
+.water_JS2 dd{ overflow: hidden; height: .9rem; float: left; width: 13.35rem; font: .6rem/.9rem "Microsoft YaHei"; color: #454545;}
+
+
+.water_JS3{ display: none; width: 14rem; height: 1.85rem;}
+.water_JS3 img{ width: 14rem; height: 1.85rem;}
+
+/****************服务优势*****************/
+.advantage{ width: 16rem; margin: 0 auto; background: #eeecec;}
+.title6{ width: 4rem; height: 2.6rem;  margin: -2.02rem auto 0 auto; background: url(../images/title06.png) left top no-repeat; background-size: 100%;}
+
+.advan1{ overflow: hidden; width: 9.25rem; height: 3.15rem; margin: .75rem auto .5rem auto; padding: .6rem 0 0 4.75rem; background: url(../images/youshi01.png) left top no-repeat; background-size: 100%; font: .5rem/.75rem "Microsoft YaHei"; color: #737373; }
+.advan2{ overflow: hidden; width: 9.25rem; height: 3.15rem; margin: 0 auto .5rem auto; padding: .6rem 0 0 4.75rem; background: url(../images/youshi02.png) left top no-repeat; background-size: 100%; font: .5rem/.75rem "Microsoft YaHei"; color: #737373; }
+.advan3{ overflow: hidden; width: 9.25rem; height: 3.125rem; margin: 0 auto .5rem auto; padding: .6rem 0 0 4.75rem; background: url(../images/youshi03.png) left top no-repeat; background-size: 100%; font: .5rem/.75rem "Microsoft YaHei"; color: #737373; }
+
+
+/**************成功案例*****************/
+.case{ width: 14rem; padding: 0 1rem; margin: 0 auto; padding-bottom: 1.25rem;}
+.title7{ width: 4rem; height: 1.6rem;  margin: 0 auto .7rem auto; background: url(../images/title07.png) left top no-repeat; background-size: 100%;}
+.case li{ float: left; width: 6.2rem; height: 4rem; margin:0 0 .3rem .5rem;}
+.case li img{ width: 6.2rem; height: 3rem;}
+
+.case li p a{ display: block; height: .75rem; margin-top: .25rem; font: .5rem/.75rem "Microsoft YaHei"; color: #333; text-align: center;}
+/****************关联产品*****************/
+.content_seven{ width: 14rem; margin: 0 auto; padding: 0 1rem; background: #eeecec;}
+.title8{ width: 4rem; height: 1.875rem;  margin: -1.25rem auto .5rem auto; background: url(../images/title08.png) left top no-repeat; background-size: 100%;}
+.guanlian dl{ width: 3rem; float: left; margin: 0 .65rem 0 0 ; text-decoration: none; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.guanlian .mar0{ margin: 0;}
+.guanlian dt{ width: 3rem; height: 3rem;}
+.guanlian dt img{ width: 3rem; height: 3rem;}
+.guanlian dd{ position: relative; width: 3rem; height: 2.5rem; margin-top: .2rem; font: .55rem/1.1rem "Microsoft YaHei"; color: #4f4f4f; text-align: center;}
+.guanlian dd p{ width: 3rem; height: 1.1rem; font: .55rem/1.1rem "Microsoft YaHei"; color: #4f4f4f; text-align: center;}
+.guanlian dd .guanlian_ms1{ display: block; width: 9.95rem; height: 1rem; position: absolute; left: 0; top: 1rem;}
+.guanlian dd .guanlian_ms1 img{ width: 9.95rem; height: 1rem;}
+.guanlian dd .guanlian_ms2{ display: none; width: 12.1rem; height: 1rem; position: absolute; left: -4.1rem; top: 1rem;}
+.guanlian dd .guanlian_ms2 img{ width: 12.1rem; height: 1rem;}
+.guanlian dd .guanlian_ms3{ display: none; width: 13.65rem; height: 1rem; position: absolute; left: -7rem; top: 1rem;}
+.guanlian dd .guanlian_ms3 img{width: 13.65rem; height: 1rem;}
+.guanlian dd .guanlian_ms4{ display: none; width: 12.05rem; height: 1rem; position: absolute; left: -9.1rem; top: 1rem;}
+.guanlian dd .guanlian_ms4 img{width: 12.05rem; height: 1rem;}
+
+/*****************运营干货******************/
+.dry{ width: 14rem; margin: 0 auto; padding: 0 1rem;}
+.title9{ width: 4rem; height: 1.875rem;  margin: 0 auto .4rem auto; background: url(../images/title09.png) left top no-repeat; background-size: 100%;}
+.dry ul{ width: 13rem; margin: 0 auto;}
+.dry li{ width: 13rem; height: .75rem; margin-bottom: .5rem;}
+.dry li span{ float: left; display: block; width: .15rem; height: .15rem; margin: .25rem .3rem 0 0; background: url(../images/g_icon.png) left top no-repeat; background-size: 100%;}
+.dry li a{ float: left; overflow: hidden; width: 12.5rem; height: .75rem; font: .55rem/.75rem "Microsoft YaHei"; color: #028ad4;}
+
+
+/************底部****************/
+.content_nine{ width: 16rem; margin: 0 auto; padding-bottom: .8rem; background: #eeecec;}
+.logo{ width: 3.45rem; height: 1rem; text-align: center; margin: .3rem auto.3rem auto;}
+.yuyue{ width: 16rem; height: 1rem; background: url(../images/line.png) left top no-repeat; background-size: 100%;}
+.yuyue a{ display: block; width: 4.5rem; height: 1rem; background: url(../images/button1.png) left top no-repeat; margin: 0 auto; background-size: 100%;}
+.yuyue a:hover{ background: url(../images/button2.png) left top no-repeat;}
+.content_nine p{ width: 14rem; height: .75rem; padding: 0 1rem;}
+.content_nine span{ font: .45rem/.75rem "Microsoft YaHei"; color: #454545;}
+.content_nine .bold{ font-weight: bold;}
+
+/*****************信息收集页******************/
+.bg_xinxi{ background: #0179b6;}
+.screen_X{ position: relative; overflow: hidden; width: 16rem; height: 100%; margin: 0 auto; background: #0179b6;}
+.valid{ width: 16rem; margin: 2.65rem auto 1.25rem auto; font: .75rem/1.25rem "Microsoft YaHei"; color: #fff; text-align: center;}
+.xinxi{ width: 13.75rem; margin: 0 auto; text-align: center;}
+.xinxi input{ width: 100%; height: 1.35rem; margin: 0 auto .95rem auto; border:1px solid #199bcc; border-radius: .1rem; font: .75rem/1.35rem "Microsoft YaHei"; text-indent: .3rem; color: #fff;}
+
+.xinxi .button{ width: 5.15rem; height: 1.4rem; margin-top: 1.5rem; background: #34c2e6; font: .75rem/1.3rem "Microsoft YaHei";  color: #fff;}
+.xinxi .button:hover{ background: #49d1f3;}
+
+.xinxi .button_C{ background: #24afd2;}
